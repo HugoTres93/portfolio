@@ -54,6 +54,9 @@ const Navbar: React.FC = () => {
                   <a href="#education" className={`font-medium capitalize transition-colors duration-300 ${
                   isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
                 }`}>Formations</a>
+                  <a href="#contact" className={`font-medium capitalize transition-colors duration-300 ${
+                  isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
+                }`}>Contact</a>
                 </div>
               </div>
             }
@@ -76,6 +79,9 @@ const Navbar: React.FC = () => {
               <a href="#education" className={`font-medium capitalize transition-colors duration-300 ${
                   isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
                 }`}>Formations</a>
+              <a href="#contact" className={`font-medium capitalize transition-colors duration-300 ${
+                  isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
+                }`}>Contact</a>
             </nav>
           </div>
         )}
