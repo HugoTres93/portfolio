@@ -25,7 +25,7 @@ jobs:
         run: npm run build
         
       - name: Deploy
-        uses: hugotres93.github.io/portfolio@v4
+        uses: HugoTres93/portfolio
         with:
           folder: dist # Le dossier de build pour Vite
           branch: main
