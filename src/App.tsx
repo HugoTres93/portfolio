@@ -5,7 +5,6 @@ import About from './components/sections/About.tsx';
 import Skills from './components/sections/Skills.tsx';
 import Projects from './components/sections/Projects.tsx';
 import Education from './components/sections/Education.tsx';
-import Contact from './components/sections/Contact.tsx';
 import Footer from './components/common/Footer.tsx';
 
 const App: React.FC = () => {
@@ -18,7 +17,6 @@ const App: React.FC = () => {
         <Skills />
         <Projects />
         <Education />
-        <Contact />
       </main>
       <Footer />
     </div>
