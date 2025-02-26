@@ -20,10 +20,6 @@ const About: React.FC = () => {
                         </h2>
 
                         <p className="text-lg mb-6 text-secondary-700">
-                            Bonjour, je m'appelle Torres Hugo, programmateur informatique.
-                        </p>
-
-                        <p className="text-lg mb-6 text-secondary-700">
                             Actuellement en Master Lead Développeur à ESIEE-IT à Pontoise, je recherche un contrat d'apprentissage (rythme : 70% en entreprise / 30% en école) avec une disponibilité immédiate.
                         </p>
 
