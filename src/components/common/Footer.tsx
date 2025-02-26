@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  
+
   const navigationLinks = [
     { name: 'Accueil', href: '#' },
     { name: 'À propos', href: '#about' },
@@ -20,8 +20,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-xl font-bold mb-3">Torres Hugo</h3>
             <p className="text-gray-400 mb-4 max-w-md">
-              Développeur full stack créatif spécialisé en React, TypeScript et Tailwind CSS. 
-              Passionné par la création d'interfaces utilisateur modernes et intuitives.
+              Développeur Full Stack spécialisé en Java, TypeScript et Vue.js, avec une expérience en Angular et Spring Boot. Passionné par la création de solutions performantes et évolutives.
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="https://github.com/HugoTres93" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
@@ -36,7 +35,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-          
+
           {/* Navigation Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Navigation</h4>
@@ -52,7 +51,7 @@ const Footer: React.FC = () => {
               ))}
             </nav>
           </div>
-          
+
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
@@ -79,7 +78,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400 text-sm">
             © {currentYear} Tous droits réservés.

@@ -49,17 +49,16 @@ const Navbar: React.FC = () => {
           {/* Menu pour desktop */}
           <nav className="hidden md:flex space-x-8">
 
-          {navigationLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-              className={`font-medium capitalize transition-colors duration-300 ${
-                isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
-              }`}
-            >
-              {link.name}
-            </a>
-          ))}          
+            {navigationLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                className={`font-medium capitalize transition-colors duration-300 ${isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
+                  }`}
+              >
+                {link.name}
+              </a>
+            ))}
           </nav>
         </div>
 
@@ -67,19 +66,18 @@ const Navbar: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4">
             <nav className="flex flex-col space-y-4">
-            {navigationLinks.map((link) => (
-                
+              {navigationLinks.map((link) => (
+
                 <a
                   key={link.name}
                   href={link.href}
-                onClick={() => setIsMenuOpen(false)}
-                className={`font-medium capitalize transition-colors duration-300 ${
-                  isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
-                }`}
-              >
-                {link.name}
-              </a>
-            ))}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`font-medium capitalize transition-colors duration-300 ${isScrolled ? 'text-secondary-600 hover:text-primary-700' : 'text-white hover:text-primary-200'
+                    }`}
+                >
+                  {link.name}
+                </a>
+              ))}
             </nav>
           </div>
         )}
