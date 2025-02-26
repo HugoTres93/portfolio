@@ -8,7 +8,7 @@ const About: React.FC = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     <div className="lg:w-1/3 order-2 lg:order-1">
                         <img
-                            src="/assets/images/profile.webp"
+                            src="/assets/images/photo.jpg"
                             alt="Hugo Torres"
                             className="w-64 h-64 object-cover rounded-full mx-auto shadow-lg"
                         />
@@ -20,7 +20,7 @@ const About: React.FC = () => {
                         </h2>
 
                         <p className="text-lg mb-6 text-secondary-700">
-                            Je suis Hugo Torres, développeur Full Stack passionné spécialisé dans le développement web et mobile avec plus d'un an d'expérience.
+                            Je suis Hugo Torres, développeur Full Stack passionné spécialisé dans le développement web et mobile avec plus d' 1 an d'expérience.
                         </p>
 
                         <p className="text-lg mb-6 text-secondary-700">
