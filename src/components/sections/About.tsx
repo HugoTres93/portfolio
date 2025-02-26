@@ -20,11 +20,15 @@ const About: React.FC = () => {
                         </h2>
 
                         <p className="text-lg mb-6 text-secondary-700">
-                            Je suis Hugo Torres, développeur Full Stack passionné spécialisé dans le développement web et mobile avec plus d' 1 an d'expérience.
+                            Bonjour, je m'appelle Torres Hugo, programmateur informatique.
                         </p>
 
                         <p className="text-lg mb-6 text-secondary-700">
                             Actuellement en Master Lead Développeur à ESIEE-IT à Pontoise, je recherche un contrat d'apprentissage (rythme : 70% en entreprise / 30% en école) avec une disponibilité immédiate.
+                        </p>
+
+                        <p className="text-lg mb-6 text-secondary-700">
+                            Avec plus d'un an expérience en développement Full Stack, j’ai travaillé sur des projets variés, renforçant mes compétences en Java, TypeScript, Vue.js et Spring Boot. Passionné par les sciences et la résolution de problèmes, j’aspire à devenir un développeur polyvalent, du front-end au back-end. Découvrez mes projets ou contactez-moi pour toute collaboration.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -106,6 +110,7 @@ const About: React.FC = () => {
                                 className="bg-gray-800 text-white px-6 py-2 rounded-md font-medium hover:bg-gray-900 transition duration-300 flex items-center"
                             >
                                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 .297C5.373.297 0 5.67 0 12.297c0 5.302 3.438 9.8 8.207 11.387.6.113.793-.262.793-.583 0-.287-.01-1.04-.015-2.04-3.34.727-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.082-.73.082-.73 1.205.085 1.84 1.24 1.84 1.24 1.07 1.835 2.805 1.305 3.49.997.108-.776.418-1.305.76-1.605-2.665-.303-5.467-1.333-5.467-5.93 0-1.31.468-2.382 1.24-3.22-.124-.303-.54-1.527.116-3.18 0 0 1.01-.323 3.3 1.23a11.37 11.37 0 013.007-.403c1.02.005 2.045.137 3.007.403 2.29-1.553 3.3-1.23 3.3-1.23.656 1.653.24 2.877.116 3.18.775.838 1.24 1.91 1.24 3.22 0 4.61-2.807 5.625-5.48 5.922.43.372.823 1.103.823 2.22 0 1.605-.015 2.895-.015 3.29 0 .323.192.698.798.58C20.565 22.092 24 17.595 24 12.297 24 5.67 18.627.297 12 .297z" />
                                 </svg>
                                 Github
                             </a>

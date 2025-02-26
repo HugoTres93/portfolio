@@ -44,18 +44,7 @@ const Projects: React.FC = () => {
                     >
                       <i className="devicon-github-original text-xl"></i>
                     </a>
-                  )}
-                  
-                  {project.demo && (
-                    <a 
-                      href={project.demo} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      className="text-secondary-600 hover:text-secondary-800 transition"
-                    >
-                      <i className="fas fa-external-link-alt text-xl"></i>
-                    </a>
-                  )}
+                  )}                              
                 </div>
               </div>
             </div>
