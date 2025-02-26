@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           <a href="#" className={`text-2xl font-bold ${isScrolled ? 'text-primary-700' : 'text-white'}`}>
-            HT
+            Hugo Torres
           </a>
 
           {/* Menu pour mobile */}
