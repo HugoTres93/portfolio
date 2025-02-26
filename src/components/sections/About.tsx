@@ -8,7 +8,7 @@ const About: React.FC = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12">
                     <div className="lg:w-1/3 order-2 lg:order-1">
                         <img
-                            src="/assets/images/photo.jpg"
+                            src="assets/images/photo.jpg"
                             alt="Hugo Torres"
                             className="w-64 h-64 object-cover rounded-full mx-auto shadow-lg"
                         />
@@ -89,7 +89,7 @@ const About: React.FC = () => {
 
                         <div className="flex gap-4">
                             <a
-                                href="/assets/CV-Hugo-TORRES.pdf"
+                                href="assets/CV-Hugo-TORRES.pdf"
                                 target="_blank"
                                 className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition duration-300 flex items-center"
                             >
