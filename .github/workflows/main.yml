@@ -5,12 +5,18 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Configuration des permissions explicites
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Important pour éviter les problèmes d'authentification
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -27,5 +33,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # Le dossier de build pour Vite
-          branch: main
+          folder: dist
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }} # Utilise le token fourni par GitHub Actions
