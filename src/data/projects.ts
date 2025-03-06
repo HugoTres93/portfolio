@@ -10,9 +10,21 @@ export const projects: Project[] = [
   },
   {
     title: 'Pronotix',
-    description: 'développé d\'un modèle de Machine Learning pour prédire les résultats des matchs de football en utilisant des données historiques telles que les performances des équipes, les statistiques des joueurs et d\'autres paramètres clés.',
+    description: 'Développé d\'un modèle de Machine Learning pour prédire les résultats des matchs de football en utilisant des données historiques telles que les performances des équipes, les statistiques des joueurs et d\'autres paramètres clés.',
     technologies: ['Python'],
     image: 'assets/images/pronotix.webp',
     github: 'https://github.com/Jerance/pronotix-back',
+  },
+  {
+    title: 'Dawan CFA',
+    description: 'Développement d\'une application web pour un CFA permettant aux utilisateurs d\'envoyer des documents, de consulter leur planning et d\'accéder aux informations des autres membres selon leur rôle.',
+    technologies: ['Java', 'Spring Boot', 'Hibernate', 'Vue.js', 'Mariadb'],
+    image: 'assets/images/dawan-logo.webp',
+  },
+  {
+    title: 'Boutique en ligne',
+    description: 'Développement d\'une application de boutique en ligne permettant la gestion des produits et des ventes.',
+    technologies: ['C#', 'React', 'MySQL'],
+    image: '',
   },
 ];
