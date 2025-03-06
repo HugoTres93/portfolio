@@ -25,6 +25,6 @@ export const projects: Project[] = [
     title: 'Boutique en ligne',
     description: 'Développement d\'une application de boutique en ligne permettant la gestion des produits et des ventes.',
     technologies: ['C#', 'React', 'MySQL'],
-    image: '',
+    image: 'assets/images/boutique-en-ligne-logo.webp',
   },
 ];
