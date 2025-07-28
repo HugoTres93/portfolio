@@ -2,6 +2,13 @@ import { Project } from '../types';
 
 export const projects: Project[] = [
   {
+    title: 'Moteur de Recherche',
+    description: 'Développement d\'un moteur de recherche fullstack avec Next.js pour le frontend (déployé sur Vercel), NestJS pour l\'API backend avec TypeORM et PostgreSQL, et un microservice Python pour le scraping et l\'enregistrement des données.',
+    technologies: ['Next.js', 'NestJS', 'TypeORM', 'PostgreSQL', 'Python'],
+    image: 'assets/images/DevSearch_logo.png',
+    link: 'https://devsearch.loule.me/fr',
+  },
+  {
     title: 'Helle E Scape',
     description: 'Développement d\'une application mobile pour permettre aux utilisateurs de poser des pièges en temps réel dans un jeux Unity.',
     technologies: ['Socket.io', 'Express.js', 'Unity', 'React native'],
