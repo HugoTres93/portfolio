@@ -39,7 +39,7 @@ export const skills: Skill[] = [
   },
   {
     name: 'Python',
-    level: 'En cours d\'acquisition',
+    level: 'Acquise',
     icon: 'devicon-python-plain'
   },
   {
@@ -74,12 +74,12 @@ export const skills: Skill[] = [
   },
   {
     name: 'React',
-    level: 'En cours d\'acquisition',
+    level: 'Acquise',
     icon: 'devicon-react-plain',
   },
   {
     name: 'Kotlin',
-    level: 'En cours d\'acquisition',
+    level: 'Acquise',
     icon: 'devicon-kotlin-plain',
   },
   {

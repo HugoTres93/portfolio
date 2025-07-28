@@ -11,6 +11,7 @@ export interface Project {
   image: string;
   github?: string;
   demo?: string;
+  link?: string;
 }
 
 export interface Education {
